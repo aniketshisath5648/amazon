@@ -1,0 +1,112 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    font-family: sans-serif;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-image: url('f13fb34cc03956b16ad356f8122b9621.jpg'); */
+    background-repeat: no-repeat;
+    background-size: cover;   
+    background-color: lightblue;
+}
+.main{
+background:rgba(174, 195, 212);
+width: 30vw;
+height: 35vw;
+border-radius: 1vw;
+display: flex;
+flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+h1{
+    margin-top:5vw ;
+}
+#userid , #phone{
+    /* margin-bottom: ; */
+    padding: 0.8vw 2vw;
+    width: 15vw;
+    border: none;
+    border-radius: 10px;
+    background: rgba(0,0,0,0.2);
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+    font-weight: 600;
+    font-size: 1.2vw;
+    outline: none;
+    color: white;
+
+}
+#pass{
+    margin-bottom: 1vw;
+    padding: 0.8vw 2vw;
+    width: 15vw;
+    border: none;
+    border-radius: 10px;
+    background: rgba(0,0,0,0.2);
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+    font-weight: 600;
+    font-size: 1.2vw;
+    outline: none; color: white;
+}
+#valid{
+margin-bottom: 1vw;
+padding: 0.8vw 2vw;
+width: 15vw;
+border: none;
+border-radius: 10px;
+background: rgba(0,0,0,0.2);
+box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+font-weight: 300;
+font-size: 1vw;
+color: red;
+outline: none;  
+}
+button{
+    padding: 0.8vw 1vw; 
+    margin-bottom: 4vw;
+    background-color: rgb(5, 70, 5);
+    color: white;
+    font-weight: 700;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+#rush{
+    position:absolute;
+   margin-top: 16.3%;
+   margin-right: 5vw;
+   background-color: transparent;
+   border: none;
+   outline: none;
+}
+@media (min-width:1px) and (max-width:425px){
+    .main{
+        width:40vh;
+        height: 50vh;
+    
+    }
+   #userid,#phone,#rush,#pass,#valid{
+    width: 60%;
+    height: 6%;
+    font-size: 3vh;
+    color: black;
+   }
+   button{
+    padding:1.3vh
+   }
+   #rush{
+    margin-top: 21.5vh;
+    margin-left: 5vh;
+   }
+   #valid{
+    color: red;
+    font-size: 2vh;
+   }
+}
